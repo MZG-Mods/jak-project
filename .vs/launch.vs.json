@@ -27,7 +27,7 @@
       "name": "Tests - Draft Tests - Verbose",
       "args": [
         "--gtest_brief=0",
-        "--gtest_filter=\u0022*Draft*\u0022"
+        "--gtest_filter=\"*Draft*\""
       ]
     },
     {
@@ -37,7 +37,7 @@
       "name": "Tests - TypeConsistency - Verbose",
       "args": [
         "--gtest_brief=0",
-        "--gtest_filter=\u0022*TypeConsistency*\u0022"
+        "--gtest_filter=\"*TypeConsistency*\""
       ]
     },
     {
@@ -47,7 +47,7 @@
       "name": "Tests - TypeConsistency - Jak 2 - Verbose",
       "args": [
         "--gtest_brief=0",
-        "--gtest_filter=\u0022*Jak2TypeConsistency*\u0022"
+        "--gtest_filter=\"*Jak2TypeConsistency*\""
       ]
     },
     {
@@ -57,7 +57,7 @@
       "name": "Tests - WithGameTests - Verbose",
       "args": [
         "--gtest_brief=0",
-        "--gtest_filter=\u0022*WithGameTests*\u0022"
+        "--gtest_filter=\"*WithGameTests*\""
       ]
     },
     {
@@ -145,6 +145,7 @@
       "name": "Game - Jak 1 - Runtime (boot)",
       "args": [
         "-v",
+        "--portable",
         "--game",
         "jak1",
         "--",
@@ -332,9 +333,9 @@
       "projectTarget": "memory_dump_tool.exe (bin\\memory_dump_tool.exe)",
       "name": "Tools - EE Memory Analyze - Jak 1",
       "args": [
-        "\u0022${workspaceRoot}/eeMemory.bin\u0022",
+        "\"${workspaceRoot}/eeMemory.bin\"",
         "--output-path",
-        "\u0022${workspaceRoot}\u0022",
+        "\"${workspaceRoot}\"",
         "--game",
         "jak1"
       ]
@@ -345,9 +346,9 @@
       "projectTarget": "memory_dump_tool.exe (bin\\memory_dump_tool.exe)",
       "name": "Tools - EE Memory Analyze - Jak 2",
       "args": [
-        "\u0022${workspaceRoot}/eeMemory.bin\u0022",
+        "\"${workspaceRoot}/eeMemory.bin\"",
         "--output-path",
-        "\u0022${workspaceRoot}\u0022",
+        "\"${workspaceRoot}\"",
         "--game",
         "jak2"
       ]
@@ -368,7 +369,7 @@
       "projectTarget": "extractor.exe (bin\\extractor.exe)",
       "name": "Tools - Extractor - Full",
       "args": [
-        "\u0022E:\\ISOs\\Jak\\Jak 1.iso\u0022"
+        "\"E:\\ISOs\\Jak\\Jak 1.iso\""
       ]
     },
     {
@@ -391,7 +392,7 @@
         "--size",
         255,
         "--fields",
-        "[{\\\u0022type\\\u0022:\\\u0022quaternion\\\u0022,\\\u0022offset\\\u0022:48}]"
+        "[{\\\"type\\\":\\\"quaternion\\\",\\\"offset\\\":48}]"
       ]
     },
     {
@@ -402,7 +403,7 @@
       "args": [
         "--write",
         "--file",
-        "C:\\Users\\xtvas\\Repos\\opengoal\\jak-project\\decompiler_out\\jak3\\mood-h_disasm.gc"
+        "C:\\Users\\xtvas\\Repositories\\opengoal\\jak-project\\goal_src\\jak1\\engine\\camera\\cam-states.gc"
       ]
     },
     {
@@ -412,14 +413,8 @@
       "name": "Tests - Formatter",
       "args": [
         "--gtest_brief=0",
-        "--gtest_filter=\u0022*FormatterTests*\u0022"
+        "--gtest_filter=\"*FormatterTests*\""
       ]
-    },
-    {
-      "type": "default",
-      "project": "CMakeLists.txt",
-      "projectTarget": "goalc.exe (bin\\goalc.exe)",
-      "name": "goalc.exe (bin\\goalc.exe)"
     }
   ]
 }
