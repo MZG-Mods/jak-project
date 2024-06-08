@@ -1,0 +1,358 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "tools/type_searcher"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"tools/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 217,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 219,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 220,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 218,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 186,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 206,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 224,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 231,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 259,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 260,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 189,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fno-limit-debug-info         -fcxx-exceptions         -fexceptions         -fdiagnostics-color=always         -mavx         -Wall         -Wno-c++11-narrowing         -Wno-c++98-compat         -O3         -D_CRT_SECURE_NO_WARNINGS -ggdb -g -Wextra -O3"
+				},
+				{
+					"fragment" : "-std=gnu++20"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "HAVE_USLEEP=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "REPLXX_STATIC"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "SQLITE_ENABLE_JSON1"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "SQLITE_ENABLE_RTREE"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "SQLITE_THREADSAFE=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 8,
+					"path" : "/home/zachary/.vs/jak-project/."
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/zachary/.vs/jak-project/third-party/curl/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/home/zachary/.vs/jak-project/third-party/tree-sitter/tree-sitter/lib/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/zachary/.vs/jak-project/third-party/fmt/include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/home/zachary/.vs/jak-project/third-party/glad/include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/home/zachary/.vs/jak-project/third-party/SDL/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/zachary/.vs/jak-project/third-party/lzokay"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/zachary/.vs/jak-project/third-party/replxx/include"
+				},
+				{
+					"backtrace" : 14,
+					"isSystem" : true,
+					"path" : "/home/zachary/.vs/jak-project/third-party/inja"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "replxx::@6ef7eed1c4622a989568"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "sqlite3::@b70a9fa0400f6f0031d0"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "tree-sitter::@f5a0bef934e991665ff1"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "libtinyfiledialogs::@a29e4818cc79735a6136"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "fmt::@7a2f38438b7612b88da3"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "common::@bfc844598bd03e848b3c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "decomp::@effa00f19bbb4c9fa8a4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "libzstd_static::@7794bb7a0a44293c6e7c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "lzokay::@a81e0f3ba01641a8c052"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "stb_image::@6972fa9c72d0f47aa931"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "tiny_gltf::@339445d2fb0147795a9f"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "xdelta3::@27ca6fec0a1c34d08533"
+		}
+	],
+	"id" : "type_searcher::@b9a00e55f22b3d77656c",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-fno-limit-debug-info         -fcxx-exceptions         -fexceptions         -fdiagnostics-color=always         -mavx         -Wall         -Wno-c++11-narrowing         -Wno-c++98-compat         -O3         -D_CRT_SECURE_NO_WARNINGS -ggdb -g -Wextra -O3",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "common/libcommon.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "decompiler/libdecomp.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "common/libcommon.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "third-party/replxx/libreplxx.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "third-party/zstd/liblibzstd_static.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "third-party/tree-sitter/libtree-sitter.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "third-party/sqlite3/libsqlite3.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "third-party/libtinyfiledialogs/liblibtinyfiledialogs.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lstdc++fs",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "third-party/fmt/libfmt.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "third-party/lzokay/liblzokay.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "third-party/tiny_gltf/libtiny_gltf.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "third-party/stb_image/libstb_image.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "third-party/xdelta3/libxdelta3.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "type_searcher",
+	"nameOnDisk" : "type_searcher",
+	"paths" : 
+	{
+		"build" : "tools",
+		"source" : "tools"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "tools/type_searcher/main.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

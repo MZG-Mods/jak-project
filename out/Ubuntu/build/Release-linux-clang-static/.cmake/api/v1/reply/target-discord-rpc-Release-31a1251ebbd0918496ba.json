@@ -1,0 +1,422 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "third-party/discord-rpc/src/libdiscord-rpc.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"target_compile_options",
+			"build_third_party_lib",
+			"add_definitions",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"third-party/discord-rpc/src/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 73,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 129,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 80,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 91,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 292,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 179,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 69,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 217,
+				"parent" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 219,
+				"parent" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 220,
+				"parent" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 218,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 186,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 206,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 224,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 231,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 259,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 260,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 291,
+				"parent" : 5
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 189,
+				"parent" : 5
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fno-limit-debug-info         -fcxx-exceptions         -fexceptions         -fdiagnostics-color=always         -mavx         -Wall         -Wno-c++11-narrowing         -Wno-c++98-compat         -O3         -D_CRT_SECURE_NO_WARNINGS -ggdb -g -Wextra -O3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-unknown-pragmas"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-old-style-cast"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-c++98-compat"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-c++98-compat-pedantic"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-missing-noreturn"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-padded"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-covered-switch-default"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-exit-time-destructors"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-global-constructors"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-w"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 8,
+					"define" : "DISCORD_LINUX"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "HAVE_USLEEP=1"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "SQLITE_ENABLE_JSON1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "SQLITE_ENABLE_RTREE"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "SQLITE_THREADSAFE=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 13,
+					"path" : "/home/zachary/.vs/jak-project/."
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/home/zachary/.vs/jak-project/third-party/curl/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/zachary/.vs/jak-project/third-party/tree-sitter/tree-sitter/lib/include"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/zachary/.vs/jak-project/third-party/fmt/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/zachary/.vs/jak-project/third-party/glad/include"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/home/zachary/.vs/jak-project/third-party/SDL/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/zachary/.vs/jak-project/third-party/discord-rpc/include"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/home/zachary/.vs/jak-project/third-party/discord-rpc/thirdparty/rapidjson-1.1.0/include"
+				},
+				{
+					"backtrace" : 21,
+					"isSystem" : true,
+					"path" : "/home/zachary/.vs/jak-project/third-party/inja"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				1,
+				4,
+				6,
+				10,
+				11
+			]
+		}
+	],
+	"id" : "discord-rpc::@a04b15039e4d39226661",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/home/zachary/.vs/jak-project/build/install/Release-linux-clang-static"
+		}
+	},
+	"name" : "discord-rpc",
+	"nameOnDisk" : "libdiscord-rpc.a",
+	"paths" : 
+	{
+		"build" : "third-party/discord-rpc/src",
+		"source" : "third-party/discord-rpc/src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				3,
+				5,
+				7,
+				8,
+				9
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				1,
+				4,
+				6,
+				10,
+				11
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "third-party/discord-rpc/include/discord_rpc.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third-party/discord-rpc/src/discord_rpc.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third-party/discord-rpc/include/discord_register.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third-party/discord-rpc/src/rpc_connection.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third-party/discord-rpc/src/rpc_connection.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third-party/discord-rpc/src/serialization.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third-party/discord-rpc/src/serialization.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third-party/discord-rpc/src/connection.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third-party/discord-rpc/src/backoff.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third-party/discord-rpc/src/msg_queue.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third-party/discord-rpc/src/connection_unix.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third-party/discord-rpc/src/discord_register_linux.cpp",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

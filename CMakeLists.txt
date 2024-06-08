@@ -1,6 +1,7 @@
 # Top Level CMakeLists.txt
 cmake_minimum_required(VERSION 3.10)
 
+set(CMAKE_BUILD_WITH_INSTALL_RPATH ON)
 set(CMAKE_CXX_STANDARD 20)
 project(jak)
 include(CTest)
@@ -200,7 +201,7 @@ else()
     if(STATICALLY_LINK)
         set(OPENSSL_USE_STATIC_LIBS TRUE)
     endif()
-    set(CURL_USE_OPENSSL ON) # not native, but seems to be the best choice for linux
+    set(CURL_USE_OPENSSL OFF) # not native, but seems to be the best choice for linux
 endif()
 include_directories(third-party/curl/include)
 if(STATICALLY_LINK)

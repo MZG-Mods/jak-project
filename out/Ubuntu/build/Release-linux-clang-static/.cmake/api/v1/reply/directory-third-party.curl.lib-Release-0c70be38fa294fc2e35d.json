@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"third-party/curl/lib/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 224,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"third-party/curl/lib/libcurl.a"
+			],
+			"targetId" : "libcurl_static::@27f252e8f2bb334dfb91",
+			"targetIndex" : 287,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "third-party/curl/lib",
+		"source" : "third-party/curl/lib"
+	}
+}

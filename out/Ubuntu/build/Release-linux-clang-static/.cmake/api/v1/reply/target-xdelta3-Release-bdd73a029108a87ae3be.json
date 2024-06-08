@@ -1,0 +1,218 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "third-party/xdelta3/libxdelta3.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_compile_options",
+			"build_third_party_lib",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"third-party/xdelta3/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 179,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 217,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 219,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 220,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 218,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 186,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 206,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 224,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 231,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 259,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 260,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 189,
+				"parent" : 2
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fno-limit-debug-info"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-w"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "HAVE_USLEEP=1"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "SQLITE_ENABLE_JSON1"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "SQLITE_ENABLE_RTREE"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "SQLITE_THREADSAFE=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 9,
+					"path" : "/home/zachary/.vs/jak-project/."
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/home/zachary/.vs/jak-project/third-party/curl/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/zachary/.vs/jak-project/third-party/tree-sitter/tree-sitter/lib/include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/home/zachary/.vs/jak-project/third-party/fmt/include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/home/zachary/.vs/jak-project/third-party/glad/include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/home/zachary/.vs/jak-project/third-party/SDL/include"
+				},
+				{
+					"backtrace" : 15,
+					"isSystem" : true,
+					"path" : "/home/zachary/.vs/jak-project/third-party/inja"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "xdelta3::@27ca6fec0a1c34d08533",
+	"name" : "xdelta3",
+	"nameOnDisk" : "libxdelta3.a",
+	"paths" : 
+	{
+		"build" : "third-party/xdelta3",
+		"source" : "third-party/xdelta3"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third-party/xdelta3/xdelta3.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

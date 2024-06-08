@@ -1,0 +1,102 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"third-party/lzokay/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 53,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/lzokay",
+			"paths" : 
+			[
+				"third-party/lzokay/lzokay.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"third-party/lzokay/liblzokay.a"
+			],
+			"targetId" : "lzokay::@a81e0f3ba01641a8c052",
+			"targetIndex" : 293,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/lzokay",
+			"exportName" : "lzokayTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "lzokay::@a81e0f3ba01641a8c052",
+					"index" : 293
+				}
+			],
+			"paths" : 
+			[
+				"third-party/lzokay/CMakeFiles/Export/lib/cmake/lzokay/lzokayTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/lzokay",
+			"paths" : 
+			[
+				"build/Release/bin/third-party/lzokay/lzokayConfig.cmake",
+				"build/Release/bin/third-party/lzokay/lzokayConfigVersion.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "third-party/lzokay",
+		"source" : "third-party/lzokay"
+	}
+}
