@@ -1,0 +1,117 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"third-party/replxx/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 138,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 145,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 151,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 160,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"third-party/replxx/libreplxx.so.0.0.4"
+			],
+			"targetId" : "replxx::@6ef7eed1c4622a989568",
+			"targetIndex" : 299,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"third-party/replxx/libreplxx.so"
+			],
+			"targetId" : "replxx::@6ef7eed1c4622a989568",
+			"targetIndex" : 299,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "share/cmake/replxx",
+			"exportName" : "replxx-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "replxx::@6ef7eed1c4622a989568",
+					"index" : 299
+				}
+			],
+			"paths" : 
+			[
+				"third-party/replxx/CMakeFiles/Export/share/cmake/replxx/replxx-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "share/cmake/replxx",
+			"paths" : 
+			[
+				"build/Release/bin/third-party/replxx/replxx-config-version.cmake",
+				"build/Release/bin/third-party/replxx/replxx-config.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"third-party/replxx/include/replxx.hxx",
+				"third-party/replxx/include/replxx.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "third-party/replxx",
+		"source" : "third-party/replxx"
+	}
+}

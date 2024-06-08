@@ -1,0 +1,219 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "third-party/tree-sitter/libtree-sitter.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_compile_options",
+			"build_third_party_lib",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"third-party/tree-sitter/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 225,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 179,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 217,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 219,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 220,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 218,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 186,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 206,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 224,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 189,
+				"parent" : 2
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fno-limit-debug-info -fPIC"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-w"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "HAVE_USLEEP=1"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "SQLITE_ENABLE_JSON1"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "SQLITE_ENABLE_RTREE"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "SQLITE_THREADSAFE=1"
+				},
+				{
+					"define" : "tree_sitter_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 9,
+					"path" : "/root/.vs/jak-project/."
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/root/.vs/jak-project/third-party/curl/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/root/.vs/jak-project/third-party/tree-sitter/tree-sitter/lib/include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/root/.vs/jak-project/third-party/tree-sitter/tree-sitter/lib/src"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "/root/.vs/jak-project/third-party/inja"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"id" : "tree-sitter::@f5a0bef934e991665ff1",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "tree-sitter",
+	"nameOnDisk" : "libtree-sitter.so",
+	"paths" : 
+	{
+		"build" : "third-party/tree-sitter",
+		"source" : "third-party/tree-sitter"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third-party/tree-sitter/tree-sitter/lib/src/lib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third-party/tree-sitter/tree-sitter-opengoal/parser.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

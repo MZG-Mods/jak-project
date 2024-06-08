@@ -1,0 +1,329 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "third-party/imgui/libimgui.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"target_compile_options",
+			"build_third_party_lib",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"third-party/imgui/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 261,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 179,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 217,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 219,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 220,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 218,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 186,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 206,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 224,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 231,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 259,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 260,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 189,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fno-limit-debug-info         -fcxx-exceptions         -fexceptions         -fdiagnostics-color=always         -mavx         -Wall         -Wno-c++11-narrowing         -Wno-c++98-compat         -O3         -D_CRT_SECURE_NO_WARNINGS -ggdb -g -Wextra -O3 -fPIC"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-w"
+				},
+				{
+					"fragment" : "-std=gnu++20"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "HAVE_USLEEP=1"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "SQLITE_ENABLE_JSON1"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "SQLITE_ENABLE_RTREE"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "SQLITE_THREADSAFE=1"
+				},
+				{
+					"define" : "imgui_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 10,
+					"path" : "/home/zachary/.vs/jak-project/."
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/zachary/.vs/jak-project/third-party/curl/include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/home/zachary/.vs/jak-project/third-party/tree-sitter/tree-sitter/lib/include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/home/zachary/.vs/jak-project/third-party/fmt/include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/home/zachary/.vs/jak-project/third-party/glad/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/zachary/.vs/jak-project/third-party/SDL/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/zachary/.vs/jak-project/build/Release/bin/third-party/SDL/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/zachary/.vs/jak-project/build/Release/bin/third-party/SDL/include/SDL2"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/zachary/.vs/jak-project/build/Release/bin/third-party/SDL/include-config-release/SDL2"
+				},
+				{
+					"backtrace" : 16,
+					"isSystem" : true,
+					"path" : "/home/zachary/.vs/jak-project/third-party/inja"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "SDL2::@cfc40fc49f549acd19e0"
+		}
+	],
+	"id" : "imgui::@f25e255236e5718cdb52",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "third-party/SDL/libSDL2-2.0.so.0.3000.0",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "imgui",
+	"nameOnDisk" : "libimgui.so",
+	"paths" : 
+	{
+		"build" : "third-party/imgui",
+		"source" : "third-party/imgui"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third-party/imgui/imgui.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third-party/imgui/imgui_draw.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third-party/imgui/imgui_tables.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third-party/imgui/imgui_widgets.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third-party/imgui/imgui_impl_sdl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third-party/imgui/imgui_impl_opengl3.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third-party/imgui/imgui_stdlib.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third-party/imgui/imgui_style.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

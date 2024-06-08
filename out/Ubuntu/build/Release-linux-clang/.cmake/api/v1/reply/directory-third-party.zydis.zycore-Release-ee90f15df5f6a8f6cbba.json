@@ -1,0 +1,106 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"third-party/zydis/dependencies/zycore/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 207,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 214,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 220,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 223,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/zycore",
+			"paths" : 
+			[
+				"third-party/zydis/dependencies/zycore/cmake/zyan-functions.cmake",
+				"build/Release/bin/third-party/zydis/zycore/zycore-config.cmake",
+				"build/Release/bin/third-party/zydis/zycore/zycore-config-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"third-party/zydis/zycore/libZycore.a"
+			],
+			"targetId" : "Zycore::@ce3b0b33b6795fd8cb0a",
+			"targetIndex" : 30,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/zycore",
+			"exportName" : "zycore-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Zycore::@ce3b0b33b6795fd8cb0a",
+					"index" : 30
+				}
+			],
+			"paths" : 
+			[
+				"third-party/zydis/zycore/CMakeFiles/Export/lib/cmake/zycore/zycore-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				{
+					"from" : "third-party/zydis/dependencies/zycore/include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "third-party/zydis/zycore",
+		"source" : "third-party/zydis/dependencies/zycore"
+	}
+}

@@ -1,0 +1,482 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "offline-test"
+		}
+	],
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"include",
+			"target_link_libraries",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"test/offline/CMakeLists.txt",
+			"test/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 281,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 2,
+				"parent" : 2
+			},
+			{
+				"file" : 0,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 9,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 217,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 219,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 220,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 218,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 186,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 206,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 224,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 231,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 259,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 260,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 291,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 189,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fno-limit-debug-info         -fcxx-exceptions         -fexceptions         -fdiagnostics-color=always         -mavx         -Wall         -Wno-c++11-narrowing         -Wno-c++98-compat         -O3         -D_CRT_SECURE_NO_WARNINGS -ggdb -g -Wextra -O3"
+				},
+				{
+					"fragment" : "-std=gnu++20"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "FMT_SHARED"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "HAVE_USLEEP=1"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "REPLXX_BUILDING_DLL"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "SQLITE_ENABLE_JSON1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "SQLITE_ENABLE_RTREE"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "SQLITE_THREADSAFE=1"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "ZYCORE_STATIC_BUILD"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 11,
+					"path" : "/home/zachary/.vs/jak-project/."
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/home/zachary/.vs/jak-project/third-party/curl/include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/home/zachary/.vs/jak-project/third-party/tree-sitter/tree-sitter/lib/include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/home/zachary/.vs/jak-project/third-party/fmt/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/zachary/.vs/jak-project/third-party/glad/include"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/zachary/.vs/jak-project/third-party/SDL/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/zachary/.vs/jak-project/third-party/discord-rpc/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/zachary/.vs/jak-project/third-party/lzokay"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/zachary/.vs/jak-project/third-party/replxx/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/zachary/.vs/jak-project/third-party/zydis/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/zachary/.vs/jak-project/build/Release/bin/third-party/zydis"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/zachary/.vs/jak-project/third-party/zydis/dependencies/zycore/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/zachary/.vs/jak-project/build/Release/bin/third-party/zydis/zycore"
+				},
+				{
+					"backtrace" : 18,
+					"isSystem" : true,
+					"path" : "/home/zachary/.vs/jak-project/third-party/inja"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/home/zachary/.vs/jak-project/third-party/googletest/googletest/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/home/zachary/.vs/jak-project/third-party/googletest/googletest"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					6
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "replxx::@6ef7eed1c4622a989568"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "sqlite3::@b70a9fa0400f6f0031d0"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "tree-sitter::@f5a0bef934e991665ff1"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "libtinyfiledialogs::@a29e4818cc79735a6136"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "fmt::@7a2f38438b7612b88da3"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "common::@bfc844598bd03e848b3c"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "decomp::@effa00f19bbb4c9fa8a4"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "libzstd_static::@7794bb7a0a44293c6e7c"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "compiler::@2c41b8c779bd0f4e1a95"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "gtest::@f24d190e63f09892ba9c"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "lzokay::@a81e0f3ba01641a8c052"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "stb_image::@6972fa9c72d0f47aa931"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "tiny_gltf::@339445d2fb0147795a9f"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "xdelta3::@27ca6fec0a1c34d08533"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "Zydis::@eb23a3a9fb9e101b11ef"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "Zycore::@ce3b0b33b6795fd8cb0a"
+		}
+	],
+	"id" : "offline-test::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-fno-limit-debug-info         -fcxx-exceptions         -fexceptions         -fdiagnostics-color=always         -mavx         -Wall         -Wno-c++11-narrowing         -Wno-c++98-compat         -O3         -D_CRT_SECURE_NO_WARNINGS -ggdb -g -Wextra -O3",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "lib/libgtest.so.1.11.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "goalc/libcompiler.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "decompiler/libdecomp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "common/libcommon.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "third-party/replxx/libreplxx.so.0.0.4",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "third-party/zstd/liblibzstd_static.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "third-party/tree-sitter/libtree-sitter.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "third-party/sqlite3/libsqlite3.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "third-party/libtinyfiledialogs/liblibtinyfiledialogs.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lstdc++fs",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "third-party/fmt/libfmt.so.10.2.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "third-party/lzokay/liblzokay.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "third-party/xdelta3/libxdelta3.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "third-party/tiny_gltf/libtiny_gltf.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "third-party/stb_image/libstb_image.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "third-party/zydis/libZydis.so.4.0.0.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "third-party/zydis/zycore/libZycore.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "offline-test",
+	"nameOnDisk" : "offline-test",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "test/offline/config/config.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "test/offline/framework/execution.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "test/offline/framework/orchestration.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "test/offline/framework/file_management.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "test/offline/offline_test_main.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
