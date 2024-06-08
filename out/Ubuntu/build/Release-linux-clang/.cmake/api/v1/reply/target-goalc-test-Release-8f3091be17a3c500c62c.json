@@ -1,0 +1,904 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "goalc-test"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"include",
+			"target_link_libraries",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"test/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 281,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 40,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 217,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 219,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 220,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 218,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 186,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 206,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 224,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 231,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 259,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 260,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 291,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 189,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fno-limit-debug-info         -fcxx-exceptions         -fexceptions         -fdiagnostics-color=always         -mavx         -Wall         -Wno-c++11-narrowing         -Wno-c++98-compat         -O3         -D_CRT_SECURE_NO_WARNINGS -ggdb -g -Wextra -O3"
+				},
+				{
+					"fragment" : "-std=gnu++20"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "DISCORD_DYNAMIC_LIB"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "FMT_SHARED"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "HAVE_USLEEP=1"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "REPLXX_BUILDING_DLL"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "SQLITE_ENABLE_JSON1"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "SQLITE_ENABLE_RTREE"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "SQLITE_THREADSAFE=1"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "ZYCORE_STATIC_BUILD"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 9,
+					"path" : "/home/zachary/.vs/jak-project/."
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/home/zachary/.vs/jak-project/third-party/curl/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/zachary/.vs/jak-project/third-party/tree-sitter/tree-sitter/lib/include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/home/zachary/.vs/jak-project/third-party/fmt/include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/home/zachary/.vs/jak-project/third-party/glad/include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/home/zachary/.vs/jak-project/third-party/SDL/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/zachary/.vs/jak-project/third-party/discord-rpc/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/zachary/.vs/jak-project/third-party/lzokay"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/zachary/.vs/jak-project/third-party/replxx/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/zachary/.vs/jak-project/build/Release/bin/third-party/SDL/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/zachary/.vs/jak-project/build/Release/bin/third-party/SDL/include/SDL2"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/zachary/.vs/jak-project/build/Release/bin/third-party/SDL/include-config-release/SDL2"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/zachary/.vs/jak-project/third-party/zydis/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/zachary/.vs/jak-project/build/Release/bin/third-party/zydis"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/zachary/.vs/jak-project/third-party/zydis/dependencies/zycore/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/zachary/.vs/jak-project/build/Release/bin/third-party/zydis/zycore"
+				},
+				{
+					"backtrace" : 16,
+					"isSystem" : true,
+					"path" : "/home/zachary/.vs/jak-project/third-party/inja"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/home/zachary/.vs/jak-project/third-party/googletest/googletest/include"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/home/zachary/.vs/jak-project/third-party/googletest/googletest"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					4
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "libcurl_shared::@27f252e8f2bb334dfb91"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "replxx::@6ef7eed1c4622a989568"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "sqlite3::@b70a9fa0400f6f0031d0"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "tree-sitter::@f5a0bef934e991665ff1"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "libtinyfiledialogs::@a29e4818cc79735a6136"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "fmt::@7a2f38438b7612b88da3"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "common::@bfc844598bd03e848b3c"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "decomp::@effa00f19bbb4c9fa8a4"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "cubeb::@3ab1b689cbb2fed7b5f5"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "speex::@3ab1b689cbb2fed7b5f5"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "libco::@7503e496236957ebf5c0"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "libzstd_static::@7794bb7a0a44293c6e7c"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "SDL2::@cfc40fc49f549acd19e0"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "imgui::@f25e255236e5718cdb52"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "runtime::@0c53ff3c4131f9152fd3"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "sound::@440b6eed5d9341ff0ccf"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "compiler::@2c41b8c779bd0f4e1a95"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "gtest::@f24d190e63f09892ba9c"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "lzokay::@a81e0f3ba01641a8c052"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "stb_image::@6972fa9c72d0f47aa931"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "tiny_gltf::@339445d2fb0147795a9f"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "xdelta3::@27ca6fec0a1c34d08533"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "discord-rpc::@a04b15039e4d39226661"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "Zydis::@eb23a3a9fb9e101b11ef"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "Zycore::@ce3b0b33b6795fd8cb0a"
+		}
+	],
+	"id" : "goalc-test::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-fno-limit-debug-info         -fcxx-exceptions         -fexceptions         -fdiagnostics-color=always         -mavx         -Wall         -Wno-c++11-narrowing         -Wno-c++98-compat         -O3         -D_CRT_SECURE_NO_WARNINGS -ggdb -g -Wextra -O3",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "game/libruntime.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "goalc/libcompiler.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib/libgtest.so.1.11.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "decompiler/libdecomp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "third-party/zydis/libZydis.so.4.0.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "third-party/zstd/liblibzstd_static.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "third-party/imgui/libimgui.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "third-party/SDL/libSDL2-2.0.so.0.3000.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "third-party/discord-rpc/src/libdiscord-rpc.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "game/sound/libsound.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "third-party/cubeb/cubeb/libcubeb.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "third-party/cubeb/cubeb/libspeex.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "third-party/libco/liblibco.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "third-party/curl/lib/libcurl.so.4.8.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "common/libcommon.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "third-party/zstd/liblibzstd_static.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "third-party/tree-sitter/libtree-sitter.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "third-party/replxx/libreplxx.so.0.0.4",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "third-party/sqlite3/libsqlite3.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "third-party/libtinyfiledialogs/liblibtinyfiledialogs.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lstdc++fs",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "third-party/fmt/libfmt.so.10.2.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "third-party/lzokay/liblzokay.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "third-party/xdelta3/libxdelta3.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "third-party/zydis/zycore/libZycore.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "third-party/tiny_gltf/libtiny_gltf.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "third-party/stb_image/libstb_image.so",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "goalc-test",
+	"nameOnDisk" : "goalc-test",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				32
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "test/test_main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "test/test_reader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "test/test_goos.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "test/test_listener_deci2.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "test/test_kernel_jak1.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "test/all_jak1_symbols.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "test/test_type_system.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "test/test_CodeTester.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "test/test_emitter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "test/test_emitter_avx.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "test/test_common_util.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "test/test_pretty_print.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "test/test_math.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "test/test_zstd.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "test/test_zydis.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "test/goalc/test_goal_kernel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "test/decompiler/FormRegressionTest.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "test/decompiler/test_AtomicOpBuilder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "test/decompiler/test_FormBeforeExpressions.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "test/decompiler/test_FormExpressionBuild.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "test/decompiler/test_FormExpressionBuild2.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "test/decompiler/test_FormExpressionBuild3.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "test/decompiler/test_FormExpressionBuildLong.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "test/decompiler/test_InstructionDecode.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "test/decompiler/test_InstructionParser.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "test/decompiler/test_gkernel_jak1_decomp.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "test/decompiler/test_math_decomp.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "test/decompiler/test_DataParser.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "test/decompiler/test_DisasmVifDecompile.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "test/decompiler/test_VuDisasm.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "test/common/formatter/test_formatter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "test/goalc/framework/test_runner.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "test/goalc/framework/test_runner.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "test/goalc/test_arithmetic.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "test/goalc/test_collections.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "test/goalc/test_compiler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "test/goalc/test_control_statements.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "test/goalc/test_debugger.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "test/goalc/test_game_no_debug.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "test/goalc/test_goal_kernel2.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "test/goalc/test_goal_kernel3.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "test/goalc/test_jak2_compiler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "test/goalc/test_variables.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "test/goalc/test_with_game.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "test/goalc/test_type_consistency.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "test/goalc/test_vector_float.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

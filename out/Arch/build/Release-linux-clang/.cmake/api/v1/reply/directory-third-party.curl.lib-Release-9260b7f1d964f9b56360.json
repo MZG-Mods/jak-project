@@ -1,0 +1,60 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"third-party/curl/lib/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 232,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"third-party/curl/lib/libcurl.so.4.8.0",
+				"third-party/curl/lib/libcurl.so.4"
+			],
+			"targetId" : "libcurl_shared::@27f252e8f2bb334dfb91",
+			"targetIndex" : 288,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"third-party/curl/lib/libcurl.so"
+			],
+			"targetId" : "libcurl_shared::@27f252e8f2bb334dfb91",
+			"targetIndex" : 288,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "third-party/curl/lib",
+		"source" : "third-party/curl/lib"
+	}
+}

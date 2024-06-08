@@ -1,0 +1,121 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"third-party/cubeb/cubeb/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 104,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 105,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 119,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 124,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 125,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"include/cubeb"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/cubeb",
+			"paths" : 
+			[
+				{
+					"from" : "build/Release/bin/exports",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/cubeb",
+			"paths" : 
+			[
+				"build/Release/bin/third-party/cubeb/cubeb/cubebConfig.cmake",
+				"build/Release/bin/third-party/cubeb/cubeb/cubebConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"third-party/cubeb/cubeb/libcubeb.a"
+			],
+			"targetId" : "cubeb::@3ab1b689cbb2fed7b5f5",
+			"targetIndex" : 38,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/cubeb",
+			"exportName" : "cubebTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "cubeb::@3ab1b689cbb2fed7b5f5",
+					"index" : 38
+				}
+			],
+			"paths" : 
+			[
+				"third-party/cubeb/cubeb/CMakeFiles/Export/lib/cmake/cubeb/cubebTargets.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "third-party/cubeb/cubeb",
+		"source" : "third-party/cubeb/cubeb"
+	}
+}
